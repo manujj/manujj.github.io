@@ -31,6 +31,12 @@ h3{
 	margin-bottom:30px!important;
 }
 
+@media (max-width:725px){
+	.logo-small{
+		width:85%!important;
+	}
+}
+
 /*################ Contact info hover ##################
 ########################################################
 ########################################################*/
@@ -102,9 +108,12 @@ h3{
   transform: translate(-50%,0%);
   -ms-transform: translate(-50%,0%);
 }
-.hover-red:hover{
-	color:#AA0000;
-}
+
+.hover-red:hover, .hover-red:active{
+		color:#AA0000;
+	}
+
+
 /* Colour on menu bar for mobile */
 #NavigationBarSmall a:hover {
 	color:#FFFFFF!important;
