@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<title>Geoffrey & Manu's Wedding </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../layout/styles/layout.css" type = "text/css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+<!-- NAVIGATION BAR -->
+<!-- ############################################################################################################################ -->
+<!-- ###################################	######################################################################################### -->
+<div class="w3-top capital-all">
+	<div class="w3-bar" id="NavigationBar">
+		<a class="w3-bar-item w3-button w3-hover-red w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+		<a href="../index.html" class="w3-bar-item w3-button w3-hover-red"><i class="fa fa-home"></i> Home</a>
+		<a href="wedding.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red"><i class="fa fa-heart"></i> The wedding</a>
+		<a href="#practInfoTop" class="w3-bar-item w3-button w3-hide-small w3-hover-red"><i class="fa fa-info-circle"></i> Practical info</a>
+		<a href="travelling.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red"><i class="fa fa-suitcase"></i> Travelling</a>
+		<a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-red"><i class="fa fa-envelope"></i> Contact</a>
+	</div>
+	<div id="NavigationBarSmall" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+		<a href="wedding.html" class="w3-bar-item w3-button" onclick="toggleFunction()">The wedding</a>
+		<a href="#practInfoTop" class="w3-bar-item w3-button" onclick="toggleFunction()">Practical info</a>
+		<a href="travelling.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Travelling</a>
+		<a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact</a>
+	</div>
+</div>
+
+<!-- ROW 0  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="bgimg-3 w3-display-container w3-opacity-min" style="background-image:url('../images/pics/tallin.jpg');" id="practInfoTop">
+	<div class="w3-display-middle">
+		<div class="w3-container w3-center w3-padding w3-black w3-xlarge w3-wide w3-animate-opacity capital-all clear-btn" id="firstBtn"> 
+			<a href="#first">Practical information</a>
+		</div>
+	</div>
+</div>
+
+<!-- ROW 1  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="first">
+	<h3 class="w3-center capital-all">Wedding Location</h3>
+    <p> The wedding events will take place in the city of Haldwani, Uttarakhand. All events will take place in walking distance from the hotel, 
+		and a bus will be organized between Indira Gandhi International Airport and the hotel. We will update the page with the exact location 
+		once it has been set. You can read more about the different transportation options between the airport and Haldwani <a href="#getThere">in the next section.</a> 
+	</p>
+	<div id="map">
+	</div>
+</div>
+
+<!-- ROW 2  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div style="background-color:#e6e6e6;">
+<div class="w3-content w3-container w3-padding-48" id="getThere">
+	<h3 class="w3-center capital-all">How to get there</h3>
+	<p>
+		Haldwani is located ~300 km from Indira Gandhi International Airport. The most comfortable way to reach Haldwani is by flying to New Delhi and taking the train from there, or flying by flying to Pantnagar Aiport (35 - 40 km from Haldwani) and take the train/taxi from there. For those who want we will arrange a bus from the airport to Haldwani. We will arrange for a bus that leaves from New Delhi to Haldwani on the morning of 24th of March.  
+	</p>
+	<p>
+		If you wish to use an alternative route, you only need to consider yourself with getting to the wedding before the programme starts, which is the 24th of March at 18:00, when we will start a pre-wedding "welcome" party. If you also cannot make that, the wedding ceremonies start on the 25th of March at 10:00 in the morning.
+	</p>
+	<div class="w3-row-padding w3-center">
+		<div class="w3-col m3">
+			<li  class="icon-box">
+			  <i class="fa fa-plane"></i>
+			  <p>The closest airport to Haldwani is Pantnagar Airport (PGH), located ~30km from the city. There are direct flights from Indira Gandhi International Airport in New Delhi to Pantnagar Airport.</p>
+			</li>
+		</div>
+		<div class="w3-col m3">
+			<li class="icon-box">
+			  <i class="fa fa-train"></i>
+			  <p>
+				Trains from New Delhi to Haldwani go three times every day and they take between 5 - 8 hours. A first class ticket (incl. proper seat, airconditioning, warm meal) costs about 100 NOK / 10 EUR. If you want to take the train, you should book this in advance as the trains are usually fully booked quite fast. Reservations are made generally up to 120 days in advance for all classes and all trains, and can be done via <a href="https://www.irctc.co.in/eticketing/loginHome.jsf" target="_blank"> IRCTC's web site </a>.
+			  </p>
+			</li>
+		</div>
+
+		<div class="w3-col m3">
+			<li class="icon-box">
+			  <i class="fa fa-bus"></i>
+			  <p>Busses are availiable between. </p>
+			</li>
+		</div>
+
+		<div class="w3-col m3">
+			<li class="icon-box">
+			  <i class="fa fa-car"></i>
+				<p>
+					An easy way to travel around in India is to hire a driver and car. The cost varies upon the type of vehicle and the travelling distance. Normal rate is around 1.85 NOK / 0.2 EUR per km, but for longer distances, such as New Delhi to Haldwani, they charge you for both ways. In addtion, you have to pay 60 - 120 NOK / 6.5 - 13 EUR for the driver per day. There are many companies providing this kind of service. If you choose this option with a specific company, you'd be welcome to share your search results on <a href="https://www.facebook.com/events/659344537597455" target="_blank">Facebook</a>.
+				</p>
+			</li>
+		</div>
+  </div>
+  <p> As we understand that people have different travelling plans after the wedding going in different directions we have not arranged for transportation out of Haldwani. Feel free to ask us for tips on places to go afterward, or see the page about travelling tips in India. 
+  </p>
+</div>
+</div>
+
+<!-- ROW 3  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="accomodation">
+	<h3 class="w3-center capital-all">Accomodation</h3>
+	<p>
+		We made reservations at two hotels. Hotel X and Hotel Y. Hotel X is x minutes walking distance from the ceremony area. Hotel Y is y minutes walking distance. You can find the current prices on their webpages hereX and hereY. You can also arrange accommodation by yourself, of course.
+	</p>
+	<div class="w3-row-padding w3-center">
+		<div class="w3-col l6 m6">
+			<div class="w3-display-container w3-opacity-min">
+				<div class="w3-display-middle w3-black w3-padding w3-container w3-center w3-padding w3-black w3-small w3-wide w3-animate-opacity capital-all clear-btn">
+					<a href="">Hotel Best Western Amor</a>
+				</div>
+				<img src="..\images\pics\bestwestern.jpg" width="100%">
+			</div>
+		</div>
+		<div class="w3-col l6 m6">
+			<div class="w3-display-container w3-opacity-min">
+				<div class="w3-display-middle w3-black w3-padding w3-container w3-center w3-padding w3-black w3-small w3-wide w3-animate-opacity capital-all clear-btn">
+					<a href="">Hotel Blue Saphire Clarks Inn</a>
+				</div>
+				<img src="..\images\pics\bluesaphire.jpg" width="100%">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ROW 7  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="info">
+	<h3 class="w3-center capital-all">Info we need</h3>
+	<p>
+		What we need from you, is information about your arrival date, time and location, if you will join the bus from New Delhi to India, the amount of evenings you wish to stay at which hotel in Haldwani, and when you will be departing. Besides logistics, we will also need information about any physical restrictions you may have, such as disabilities we should take into account or allergies, especially for food.
+	</p>
+	<div class="w3-center">
+		<button class="w3-button capital-all wide-min" style="margin:10px;" id="btn"><a href="https://goo.gl/forms/fFqiXdoSEe7lgdCr2" target="_blank"><i class="fa fa-pencil"></i> Take me to the form</a></button>
+	</div>
+</div>
+
+<!-- ROW 4  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="dresscode">
+	<h3 class="w3-center capital-all">Dress code</h3>
+	<p>The women traditionally wear a 'Saree'. A dress that looks like cloth wrapped around the body. However, it is accepted for the westerners to simply wear a dress. If you wish to get yourself a Saree, we advise you to find your local Indian store.
+		Often very colourfull. Western dress or suit is also perfectly fine. In case you want to go more traditional some options are:
+	</p>
+	<p>
+	A suit is perfectly fine. For those like Geoffrey who can't handle even the slightest heat, it's ok to take off your tie and suit jacket. If you want to be more traditional and Indian, search for your local Indian store where you can buy a 'Sherwani'.
+	</p>
+	<div class="w3-row-padding w3-center">
+		<div class="w3-col m4">
+			<img src="../images/pics/sari.png" style="width:100%" alt="Facebook Event">
+			<p>Sari</p>
+		</div>
+		<div class="w3-col m4">
+			<img src="../images/pics/sari.png" style="width:100%" alt="Facebook Event">
+			<p>Lehenga</p>
+		</div>
+		<div class="w3-col m4">
+			<img src="../images/pics/sari.png" style="width:100%" alt="Facebook Event">
+			<p>Kurta</p>
+		</div>
+	</div>
+	<p>
+		Can buy this at Grønland. If you have some days in India before the wedding, buy it there. Beware that at least the female clothing often need some tailoring. 
+		Order it from sites like nalli.com.
+	</p>
+</div>
+<!-- ROW 5  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="gifts">
+	<h3 class="w3-center capital-all">Wedding gifts</h3>
+	<p>
+		You coming all the way to India is enough of a present already. We therefore do not expect presents. If you, however, insist: be aware that envelope-sized gifts are the easiest to take back with us in our (limited) suit cases!
+	</p>
+	<p class="w3-center" style="font-size:25px;"><i class="fa fa-envelope-o"></i> </p>
+</div>
+
+<!-- ROW 6  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="visa">
+	<h3 class="w3-center capital-all">Indian visa</h3>
+	<p>
+		Make sure to arrange your visa on time. In some countries this is done electronically through a website, https://indianvisaonline.gov.in/visa/index.html, after which you can send documents to your local Indian embassy. Follow the instructions on the website! For Norwegian guests, this can be done through:. For Dutch guests:. For the rest check this site. 
+	</p>
+</div>
+
+<!-- ROW 8  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="pics">
+	<h3 class="w3-center capital-all">Pictures</h3>
+	<p>
+		As is usually the case, guests tend to take pictures. After the wedding, we would be very happy if you could share these pictures with us for our album. We created this Google Drive where you could share your pictures.
+	</p>
+	<p>
+		Some of us are social media fanatics. Although we usually limit ourselves to Facebook (Geoff) or Snapchat / Instagram (Manu), we are going to be opportunistics and rake in all the funny posts and pictures you share where possible. We will pay attention to the hashtags:
+	</p>
+	<div class="w3-center">
+		<button class="w3-button capital-all wide-min" style="margin:10px;">#GeoffManu</button>
+		<button class="w3-button capital-all wide-min" style="margin:10px;">#ManuGeoff</button>
+		<button class="w3-button capital-all wide-min" style="margin:10px;">#Geoff&amp;Manu</button>
+		<button class="w3-button capital-all wide-min" style="margin:10px;">#Manu&amp;Geoff</button>
+	</div>
+</div>
+
+<!-- ROW 2  -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<div class="w3-content w3-container w3-padding-48" id="facebook">
+	<h3 class="w3-center capital-all">Facebook event</h3>
+	<p>
+		All of our guests are added to the Indian wedding Facebook event. 
+		That should make it a lot easier for you to coordinate for cheaper and convenient tickets, but also for holidays if you plan to combine the visit to the wedding with holidays in India or other nearby countries.
+		In case you have not been added to the event, <a href="https://www.facebook.com/events/659344537597455" target="_blank">use this link to join the event</a>.
+	</p>
+	<div class="w3-row-padding w3-center">
+		<a href="https://www.facebook.com/events/659344537597455" target="_blank"><img src="../images/pics/faceevent.png" style="width:100%" alt="Facebook Event"></a>
+	</div>
+</div>
+
+<!-- FOOTER -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<footer class="w3-center black-opacity w3-padding-32">
+	<div class="w3-container w3-center w3-padding w3-xlarge w3-wide capital-all" style="margin-bottom:40px"> 
+		<a href=""><i class="fa fa-facebook hover-red"></i></a>
+		<a href=""><i class="fa fa-instagram hover-red"></i></a>
+		<a href=""><i class="fa fa-snapchat hover-red"></i></a>
+	</div>
+	<div class="w3-row-padding w3-content footer-ind">
+		<div class="w3-col m4" >
+			<li>
+			<a href="https://goo.gl/maps/fNSEeRiFBNt" target="_blank"><i class="fa fa-map-marker hover-red"></i></a>
+			Sørligata 8D <br> 0577 Oslo <br> Norway
+			</li>
+		</div>
+		<div class="w3-col m4">
+			<li>
+				<i class="fa fa-phone"></i> 
+				+47 918 05 875<br>+47 904 74 064
+			</li>
+		</div>
+		<div class="w3-col m4">
+			<li>
+				<a href="mailto:m.joshi92@gmail.com;geoffrey.van.ijzendoorn@gmail.com"><i class="fa fa-envelope-o hover-red"></i></a>
+				m.joshi92@gmail.com <br>geoffrey.van.ijzendoorn@gmail.com
+			</li>
+		</div>
+    </div>
+</footer>
+
+<a id="backtotop" href="#top" style="text-decoration:none;"><i class="fa fa-chevron-up"></i></a>
+
+<!-- JAVASCRIPT -->
+<!-- ############################################################################################################################ -->
+<!-- ############################################################################################################################ -->
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  
+  var haldwani = new google.maps.LatLng(29.21826, 79.51297); 
+  var indiraGandhi = new google.maps.LatLng(28.54944, 77.11808);
+  
+  var mapOptions = {center: haldwani, zoom: 7, scrollwheel:false};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: haldwani,
+  });
+  var marker2 = new google.maps.Marker({
+    position: indiraGandhi,
+  });
+  marker.setMap(map);
+  marker2.setMap(map);
+  
+  var infowindow = new google.maps.InfoWindow({
+    content: "Haldwani",
+  });
+  var infowindow2 = new google.maps.InfoWindow({
+    content: "Indira Gandhi International Airport",
+	fillColor:"#AA0000"
+  });
+  infowindow.open(map,marker);
+  infowindow2.open(map,marker2);
+  
+  google.maps.event.addListener(marker,'click',function() {
+    infowindow.open(map,marker);
+  })
+  google.maps.event.addListener(marker2,'click',function() {
+    infowindow2.open(map,marker2);
+  });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script src="../layout/scripts/jquery.min.js"></script>
+<script src="../layout/scripts/scripts_div.js"></script>
+</body>
+</html>
