@@ -119,11 +119,11 @@ h3{
   transform: translate(-50%,0%);
   -ms-transform: translate(-50%,0%);
 }
-@media (hover:hover){
+/*@media (hover:hover){
 	.hover-red:hover{
 			color:#AA0000;
 		}
-}
+}*/
 
 /* Colour on menu bar for mobile */
 #NavigationBarSmall a:hover {
@@ -147,6 +147,12 @@ h3{
 	border:solid!important;
 	border-color:#AA0000!important;
 	border-width:2px!important;
+}
+
+/*Colour on buttons*/
+.hash-button{
+  margin:10px;
+  background-color: inherit;
 }
 
 /*################ BUTTON ON HEADER IMAGES ##################
