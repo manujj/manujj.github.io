@@ -47,6 +47,11 @@ h3{
   }
 }
 
+@media (hover:none), (hover:on-demand) {
+    nav a:hover{
+        background: none;
+    }
+}
 
 /*################ Contact info hover ##################
 ########################################################
