@@ -38,12 +38,16 @@ h5{
   font-size: 0.9em;
 }
 
-.box-small-screen {
+.box-small-screen, .box-small-screen > div {
 	margin-bottom:30px!important;
 }
 
 .hover-red:hover{
   color: #AA0000!important;
+}
+
+.padding-rows{
+
 }
 
 /*################ Screen adjustments ##################
@@ -222,7 +226,7 @@ h5{
 ########################################################################
 ########################################################################*/
 
-.box-list{display:block;margin-bottom:15px; margin-top:15px; padding:0; list-style:none;}
+.box-list{display:block; margin-top:15px; padding:0; list-style:none;}
 
 .box-list li{display:block; position:relative; min-height:80px; padding:20px 20px 20px 90px;
 /* border:1px solid; */
@@ -262,7 +266,7 @@ background-color:#FFFFFF;
 ########################################################################*/
 
 .icon-box{margin-bottom:15px; margin-top:15px; padding:0px; list-style:none;background-color:#FFFFFF;
-/* border:1px solid; border-color:#AA0000;  */
+ /*border:1px solid; border-color:#AA0000;  */
 }
 .icon-box :last-child{margin-bottom:0;}/* Used in mobile devices when elements stack */
 .icon-box ::before{display:table;}
