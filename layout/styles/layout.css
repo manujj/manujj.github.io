@@ -72,6 +72,10 @@ h3{
   }
 }
 
+html.can-touch #hoverexample a:hover{ /* disable hover effect when input is touch */
+	background: none;
+}
+
 /*################ GOOGLE MAPS ##################
 #################################################
 #################################################*/
