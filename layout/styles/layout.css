@@ -17,6 +17,13 @@ body,h1,h2,h3,h4,h5,h6 {
 h3{
 	color:#AA0000;
 }
+h5{
+	/*color:#AA0000;*/
+  /*text-decoration: underline;*/
+  /*border-top: solid 1px;
+  border-color: #AA0000;
+  padding-top: 3px;*/
+}
 .capital-all {
 	text-transform: uppercase;
 }
@@ -33,10 +40,6 @@ h3{
 
 .box-small-screen {
 	margin-bottom:30px!important;
-}
-
-hr{
-  border-color: #999999;
 }
 
 .hover-red:hover{
@@ -319,7 +322,7 @@ background-color:#FFFFFF;
 }
 .footer-top {
   border-top: solid 1px;
-  border-color: #FFF;
+  border-color: #999999;
   padding-top: 20px;
   font-family: Helvetica, "Lato", sans-serif;
   color: #FFF!important;
