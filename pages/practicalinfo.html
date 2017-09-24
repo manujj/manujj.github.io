@@ -43,7 +43,7 @@
 <div class="w3-content w3-container w3-padding-48" id="first">
 	<h3 class="w3-center capital-all">Wedding Location</h3>
     <p>
-			The wedding events will take place in the city of Haldwani, Uttarakhand. All events will take place in walking distance from the hotel,	and a bus will be organized between Indira Gandhi International Airport and the hotel. We will update the page with the exact location once it has been set. You can read more about the different transportation options between the airport and Haldwani <a href="#getThere">in the next section.</a>
+			The wedding events will take place in the city of Haldwani, Uttarakhand. All events will take place in walking distance from the hotel,	and a bus will be organized between Indira Gandhi International Airport and the hotel. We will update the page with the exact location once it has been set. You can read more about the different transportation options between the airport and Haldwani <a href="#howtogetthere">in the next section.</a>
 	</p>
 	<div id="map">
 	</div>
@@ -284,7 +284,12 @@ function myMap() {
   var haldwani = new google.maps.LatLng(29.21826, 79.51297);
   var indiraGandhi = new google.maps.LatLng(28.54944, 77.11808);
 
-  var mapOptions = {center: haldwani, zoom: 7, scrollwheel:false};
+	@media (min-width:600px){
+		  var mapOptions = {center: haldwani, zoom: 7, scrollwheel:false};
+	}
+	@media (max-width:599px){
+		  var mapOptions = {center: haldwani, zoom: 6, scrollwheel:false};
+	}
   var map = new google.maps.Map(mapCanvas,mapOptions);
   var marker = new google.maps.Marker({
     position: haldwani,
