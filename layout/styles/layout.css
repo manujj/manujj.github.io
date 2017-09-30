@@ -26,6 +26,8 @@ h3{
 }
 .h5-underline h5{
   font-size: 0.95em;
+  /*word-wrap: break-word;*/
+  word-break:break-all;
 }
 .capital-all {
 	text-transform: uppercase;
@@ -68,7 +70,18 @@ h3{
 @media (min-width:600px){
   .col-height,.col-height>.w3-col {
     padding: 0 8px;
+    overflow-wrap: break-word;
     display:flex;
+  }
+}
+
+@media (min-width:600px) and (max-width:800px){
+  .ic, .ic>.w3-col{
+    width: 100%;
+    overflow-wrap: break-word;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    display: block;
   }
 }
 
