@@ -75,6 +75,12 @@ h3{
   }
 }
 
+@media (max-width:1000px) {
+  .footer-ind li{
+    word-break: break-all;
+  }
+}
+
 @media (min-width:600px) and (max-width:800px){
   .ic, .ic>.w3-col{
     width: 100%;
