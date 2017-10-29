@@ -26,8 +26,10 @@ h3{
 }
 .h5-underline h5{
   font-size: 0.95em;
-  /*word-wrap: break-word;*/
-  word-break:break-all;
+  word-wrap: break-word;
+  /*word-break:break-all;*/
+  padding-top: 8px;
+  font-size: 0.9em;
 }
 .capital-all {
 	text-transform: uppercase;
